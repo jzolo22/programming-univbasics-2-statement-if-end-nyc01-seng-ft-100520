@@ -1,6 +1,6 @@
 # Write your solution here
 
-current_second = 2
+current_second = Time.now.second
 
 if current_second.even? == true
   puts "Even!"
