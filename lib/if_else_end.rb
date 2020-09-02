@@ -1,4 +1,7 @@
 # Write your solution here
 
-run_code_inside = false
-
+if current_second.even? == true
+  puts "Even!"
+elsif current_second.odd? == true
+  puts "Odd!"
+end
